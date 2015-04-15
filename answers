@@ -1,0 +1,6 @@
+apt-cache show check    : for checking package
+phony - 
+test: geometry_test
+	./geometry_test
+Continuous integration - runs unit tests every time you push changes. 
+make dep - gets the check.h file
